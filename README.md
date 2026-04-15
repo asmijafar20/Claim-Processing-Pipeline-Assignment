@@ -11,7 +11,8 @@ FastAPI service that processes claim PDFs using a LangGraph workflow:
 - Routes only relevant pages to the 3 extraction agents
 - Aggregates extracted data into one JSON response
 
-## JSON Response while running `curl -X POST http://127.0.0.1:8000/api/process -F "claim_id=CLM-001" -F "file=@final_image_protected.pdf;type=application/pdf"`
+### JSON Response while running 
+`curl -X POST http://127.0.0.1:8000/api/process -F "claim_id=CLM-001" -F "file=@final_image_protected.pdf;type=application/pdf"`
 ```json
 {
   "claim_id": "CLM-001",
@@ -326,7 +327,8 @@ FastAPI service that processes claim PDFs using a LangGraph workflow:
       "currency": "USD"
     }
   }
-}```
+}
+```
 
 ## Tech
 
