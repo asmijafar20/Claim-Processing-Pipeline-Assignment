@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: claim-processing-pipeline
+Version: 0.1.0
+Summary: FastAPI + LangGraph service for claim PDF processing
+Requires-Python: >=3.11
+Requires-Dist: fastapi>=0.115.0
+Requires-Dist: langgraph>=0.2.60
+Requires-Dist: langchain-openai>=0.2.14
+Requires-Dist: pydantic-settings>=2.6.1
+Requires-Dist: pypdf>=5.1.0
+Requires-Dist: pytesseract>=0.3.10
+Requires-Dist: Pillow>=10.4.0
+Requires-Dist: python-multipart>=0.0.18
+Requires-Dist: uvicorn[standard]>=0.32.1

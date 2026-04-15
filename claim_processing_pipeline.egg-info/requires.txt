@@ -1,0 +1,9 @@
+fastapi>=0.115.0
+langgraph>=0.2.60
+langchain-openai>=0.2.14
+pydantic-settings>=2.6.1
+pypdf>=5.1.0
+pytesseract>=0.3.10
+Pillow>=10.4.0
+python-multipart>=0.0.18
+uvicorn[standard]>=0.32.1
